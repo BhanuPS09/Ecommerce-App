@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 import { Input } from "../input-form/input.component.jsx";
 import { signInAuthWithEmailAndPassword, createUserDocumentFromAuth } from "../../firebase/firebase.db.js";
 import "./signIn-email.style.scss";
-import { Button ,BUTTON_TYPE_CLASSES} from "../buttons/buttons.component.jsx";
+import { Button} from "../buttons/buttons.component.jsx";
 import { signInWithGooglePopup } from "../../firebase/firebase.db.js";
 // import { userContext } from "../parent/parent.component.jsx";
 
@@ -82,7 +82,7 @@ const EmailSignIn = () => {
                         SignIn
                     </Button>
 
-                    <Button buttonType={BUTTON_TYPE_CLASSES.google} type="button" onClick={signInWithGoogle}>Google Sign In</Button>
+                    <Button buttonType="goggle" type="button" onClick={signInWithGoogle}>Google Sign In</Button>
                 </div>
 
 
