@@ -78,11 +78,11 @@ const EmailSignIn = () => {
                     onChange={handleChange} />
 
                 <div className="buttons-container">
-                    <Button type="submit">
+                    <Button type="submit" buttonType="inverted">
                         SignIn
                     </Button>
 
-                    <Button buttonType="goggle" type="button" onClick={signInWithGoogle}>Google Sign In</Button>
+                    <Button buttonType="google" type="button" onClick={signInWithGoogle}>Google Sign In</Button>
                 </div>
 
 
