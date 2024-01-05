@@ -20,7 +20,7 @@ export const CheckOutItems = ({ cartItem }) => {
                     addItem(cartItem);
                 }} className="arrow">&#10095;</div>
             </span>
-            <span className="price">{price}</span>
+            <span className="price"> <i class="ri-money-rupee-circle-line"></i>{price}</span>
             <div onClick={() => {
                 clearCart(cartItem)
             }} className="remove-button">&#10005;</div>

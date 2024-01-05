@@ -67,7 +67,7 @@ export const CheckOut = () => {
         return <CheckOutItems key={items.id} cartItem={items} />;
       })}
 
-      <span className="total">Total :{cartTotal}</span>
+      <span className="total">Total : {cartTotal}</span>
       <Button buttonType="google" onClick={handlePayment}>
         CheckOut
       </Button>
