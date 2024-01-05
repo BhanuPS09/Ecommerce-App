@@ -5,13 +5,24 @@ export const BUTTON_TYPE_CLASSES = {
   inverted: "inverted",
 };
 
-export const Button = (props) => {
+export const Button = ({ children, buttonType, ...otherProps }) => {
   return (
     <button
-      className={`button-container ${BUTTON_TYPE_CLASSES[props.buttonType]}`}
-      onClick={props.onClick}
+      className={`button-container ${BUTTON_TYPE_CLASSES[buttonType]}`}
+      {...otherProps}
     >
-      {props.children}
+      {children}
     </button>
   );
 };
+
+// export const Button = (props) => {
+//   return (
+//     <button
+//       className={`button-container ${BUTTON_TYPE_CLASSES[props.buttonType]}`}
+//       onClick={props.onClick}
+//     >
+//       {props.children}
+//     </button>
+//   );
+// };
