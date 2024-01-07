@@ -32,20 +32,22 @@ You also have to clone the Ecomm-Server repository for stripe payment backend fu
 Clone the Ecommerce-App  & Ecomm-Server repository using git:
 ## Terminal 1
 git clone https://github.com/BhanuPS09/Ecommerce-App
+
 cd Ecommerce-App
+
+npm install
+
+npm start
 
 ## Terminal 2
 git clone https://github.com/BhanuPS09/Ecomm-Server
+
 cd Ecomm-Server
 
-Install dependencies with this command in both terminals
 npm install
 
-Run the Ecommerce-App with this command in terminal 1:
-npm start
-
-Run the Ecomm-Server with this command in terminal 2:
 node server.js
+
 
 
 # Tech Stack
