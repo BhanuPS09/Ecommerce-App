@@ -52,10 +52,16 @@ node server.js
 
 # Tech Stack
  RectJS
+ 
  Node.js
+ 
  Express.js
+ 
  Firebase Authentication
+ 
  Firestore database
+
+ Stripe Payment
 
 
 You may also see any lint errors in the console.
