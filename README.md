@@ -51,20 +51,19 @@ node server.js
 
 
 # Tech Stack
- RectJS
+1. RectJS
  
- Node.js
+2. Node.js
  
- Express.js
+3. Express.js
  
- Firebase Authentication
+4. Firebase Authentication
  
- Firestore database
+5. Firestore Database
 
- Stripe Payment
+6. Stripe Payment
 
 
-You may also see any lint errors in the console.
 
 
 
