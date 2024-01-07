@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# E-commerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Live Demonstration
+Here are screenshots that show the E-commerce application in use.
 
-## Available Scripts
 
-In the project directory, you can run:
+Home page
+![Screenshot 2024-01-07 131739](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/3041b2a8-c2b0-4423-90fd-384c84552b8d)
 
-### `npm start`
+SignIn and SignUp Page
+![Screenshot 2024-01-07 132346](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/d76d17b7-7477-4cf1-b6cf-9494b5d6353f)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Individual Product Page
+![Screenshot 2024-01-07 131833](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/2129b1b7-8639-480b-bf65-63db045e8e35)
+
+Checkout Bag
+![Screenshot 2024-01-07 131924](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/cb11ac05-c279-46d5-a63e-d65aeeffba97)
+
+Checkout Page
+![Screenshot 2024-01-07 131959](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/e7d7acfd-827e-4c0a-ab4d-21c126c4ccbf)
+
+Stripe Payment Page
+![Screenshot 2024-01-07 132103](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/5ad30f6b-dddb-492a-88c2-495676256410)
+
+Payment Authentication popup
+![Screenshot 2024-01-07 132200](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/e58e7705-982a-497c-ba22-93a988ce8440)
+
+Payment Success Page
+![Screenshot 2024-01-07 132231](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/48f7a4b7-2a17-44b3-b52b-983dafbb4922)
+
+Payment fail retry page
+![Screenshot 2024-01-07 132314](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/723630ab-41f8-4d34-9624-e9f89989375b)
+
+#Getting Started
+You can clone this ecommerce-app repository and install the dependencies to get started.
+You also have to clone the Ecomm-Server repository for stripe payment backend functionality.
+
+Clone the Ecommerce-App  & Ecomm-Server repository using git:
+#Terminal 1
+git clone https://github.com/BhanuPS09/Ecommerce-App
+cd Ecommerce-App
+
+#Terminal 2
+git clone https://github.com/BhanuPS09/Ecomm-Server
+cd Ecomm-Server
+
+Install dependencies with this command in both terminals
+npm install
+
+Run the Ecommerce-App with this command in terminal 1:
+npm start
+
+Run the Ecomm-Server with this command in terminal 2:
+node server.js
+
+
+# Tech Stack
+-> RectJS
+-> Node.js
+-> Express.js
+-> Firebase Authentication
+-> Firestore database
+
+
+
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
