@@ -30,11 +30,11 @@ You can clone this ecommerce-app repository and install the dependencies to get 
 You also have to clone the Ecomm-Server repository for stripe payment backend functionality.
 
 Clone the Ecommerce-App  & Ecomm-Server repository using git:
-#Terminal 1
+## Terminal 1
 git clone https://github.com/BhanuPS09/Ecommerce-App
 cd Ecommerce-App
 
-#Terminal 2
+## Terminal 2
 git clone https://github.com/BhanuPS09/Ecomm-Server
 cd Ecomm-Server
 
@@ -49,17 +49,13 @@ node server.js
 
 
 # Tech Stack
--> RectJS
--> Node.js
--> Express.js
--> Firebase Authentication
--> Firestore database
+ RectJS
+ Node.js
+ Express.js
+ Firebase Authentication
+ Firestore database
 
 
-
-
-
-The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
