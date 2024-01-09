@@ -19,12 +19,6 @@ Checkout Page
 Stripe Payment Page
 ![Screenshot 2024-01-07 132103](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/5ad30f6b-dddb-492a-88c2-495676256410)
 
-Payment Success Page
-![Screenshot 2024-01-07 132231](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/48f7a4b7-2a17-44b3-b52b-983dafbb4922)
-
-Payment fail retry page
-![Screenshot 2024-01-07 132314](https://github.com/BhanuPS09/Ecommerce-App/assets/130682945/723630ab-41f8-4d34-9624-e9f89989375b)
-
 # Getting Started
 You can clone this ecommerce-app repository and install the dependencies to get started.
 You also have to clone the Ecomm-Server repository for stripe payment backend functionality.
